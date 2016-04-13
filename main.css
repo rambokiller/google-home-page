@@ -48,6 +48,22 @@ table {
 	border-spacing: 0;
 }
 /* CSS for TheOdinProject Google Home Page */
+header{
+width:100%;
+bottom:16px;
+border-top: 2px solid #E4E4E4;
+padding-top:8px;
+}
+.topMenu *{
+	vertical-align:middle;
+}
+.topMenu li{
+	display:inline-block;
+	padding-left:11px !important;
+	font-size:14px;
+	color:#979797;
+}
+
 footer{
 width:100%;
 position:absolute;
@@ -55,6 +71,7 @@ bottom:16px;
 border-top: 2px solid #E4E4E4;
 padding-top:8px;
 }
+
 .left{
 position:relative;
 float:left;
