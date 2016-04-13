@@ -48,6 +48,7 @@ table {
 	border-spacing: 0;
 }
 /* CSS for TheOdinProject Google Home Page */
+
 header{
 width:100%;
 bottom:16px;
@@ -76,7 +77,25 @@ padding-left:25%;
 	font-size:14px;
 	color:#979797;
 }
-
+input[type="text"]{
+	width:42%;
+	margin:auto;
+	margin-bottom:50px;
+	height:40px;
+	border-color:1px solid #FFFFFF;
+	padding: 2px 8px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+button {
+    padding: 10px 20px;
+    width: 200px;
+    margin-right: 50px;
+    background-color:#F6F6F6;
+    border:none;
+    color:#C4C4C4;
+}
 footer{
 width:100%;
 position:absolute;
